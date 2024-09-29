@@ -1,0 +1,219 @@
+header{
+     transform: translateY(-95px);
+     
+     animation: appear 1s ease-in-out forwards 3s, scale-animation 2s ease-in-out forwards 3.5s;
+}
+
+@keyframes appear {
+     0%{
+          opacity: 0;
+     }
+     100%{
+          transform: translate(0);
+          opacity: 1;
+     }
+}
+
+@keyframes background-appear {
+     0%{
+          opacity: 1;
+     }
+
+     100%{
+          opacity: 1;
+     }
+}
+
+.background{
+     transform: translateY(-100%);
+     animation: background-appear 1s ease-in-out 2s forwards, appear 1s ease-in-out 2s forwards ;
+}
+
+@keyframes intro {
+     0%{
+          opacity: 0;
+     }
+
+     70%{
+          opacity: 1;
+          transform: translate(0);
+     }
+
+     100%{
+          opacity: 0;
+          transform: translate(0);
+     }
+}
+
+@keyframes outro {
+     0%{
+          opacity: 0;
+     }
+
+     70%{
+          opacity: 1;
+          transform: translate(0);
+     }
+
+     100%{
+          opacity: 0;
+          transform: translate(0);
+     }
+}
+
+@keyframes fade-left {
+     0%{
+          transform: translateX(0);
+     }
+
+     100%{
+          transform: translateX(-100%);
+     }
+}
+
+@keyframes fade-left-reverse {
+     0%{
+          transform: translateX(-100%);
+     }
+
+     100%{
+          transform: translateX(0);
+     }
+}
+
+@keyframes fade-right {
+     0%{
+          transform: translateX(0);
+     }
+
+     100%{
+          transform: translateX(100%);
+     }
+}
+
+@keyframes fade-right-reverse {
+     0%{
+          transform: translateX(100%);
+     }
+
+     100%{
+          transform: translateX(0);
+     }
+}
+
+@keyframes display-animation{
+     0%{
+          display: flex;
+     }
+
+     100%{
+          display: none;
+     }
+}
+
+@keyframes display-animation-reverse{
+     0%{
+          display: none;
+     }
+
+     100%{
+          display: fñex;
+     }
+}
+
+.render-section{
+     animation: display-animation 3.75s ease-in-out forwards;
+}
+
+.render-section .logo-symbol{
+     opacity: 0;
+     transform: translateY(-300px);
+     animation: intro 2s ease-in-out forwards;
+}
+
+.render-section .part-1{
+     animation: fade-left 2s ease-in-out 1.75s forwards;
+}
+
+.render-section .part-2{
+     animation: fade-right 2s ease-in-out 1.75s forwards;
+}
+
+@keyframes scale-animation{
+     0%{
+          width: 40%;
+     }
+
+     100%{
+          width: 70%;
+     }
+}
+
+
+
+.main-section h1, .main-section p{
+     transform: translateX(-120%);
+     animation: appear 2s ease forwards 2.5s;
+}
+
+.main-section h1{
+     animation-delay: 3s ;
+}
+
+
+/* Text */
+
+.main-section-2 .text h1,.main-section-2 .text p,.main-section-2 .text b,.main-section-2 .text ul, .main-section-3 .text h1, .main-section-3 .text p, .main-section-3 .text span{
+     transform: translateX(-500px);
+     opacity: 0;
+}
+
+.main-section-2 .text.visible *, .main-section-3 .text.visible *{
+     animation: appear 1s ease-in-out var(--i) forwards;
+}
+
+
+.main-section-2 .stadistics-1{
+     opacity: 0;
+     transform: translateY(150px);
+}
+
+.main-section-2 .stadistics-1.visible{
+     animation: appear 1s ease-in-out forwards;
+}
+
+
+
+@keyframes appear-appart {
+     0%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+
+.main-section-4.visible h1{
+     animation: appear-appart 2s ease-in-out forwards;
+}
+
+.render-section.activo{
+     animation: display-animation-reverse 2s ease-in-out forwards;
+}
+
+.render-section.activo .logo-symbol{
+     animation: outro 2s ease-in-out 2s forwards;
+}
+
+.render-section.activo .part-1{
+     animation: fade-left-reverse 1s ease-in-out forwards;
+}
+
+.render-section.activo .part-2{
+     animation: fade-right-reverse 1s ease-in-out forwards;
+}
+
+/* Producto */
+
+
+
