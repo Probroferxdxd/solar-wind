@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ip-proyect/static/css/main.ea4c5b06.css",
-    "main.js": "/ip-proyect/static/js/main.c6973ca5.js",
-    "static/media/fondo-rural.jpg": "/ip-proyect/static/media/fondo-rural.7f1d7b7c3a1bbd5b8ea3.jpg",
-    "static/media/zonas-rurales.webp": "/ip-proyect/static/media/zonas-rurales.b41d7751ba219cdf736d.webp",
-    "static/media/aulas.jpeg": "/ip-proyect/static/media/aulas.8e55e83af494786fa8a3.jpeg",
-    "static/media/solar-wind-1.jpeg": "/ip-proyect/static/media/solar-wind-1.1ec33952756c0f63c821.jpeg",
-    "static/media/molino.jpg": "/ip-proyect/static/media/molino.b56382fa6868e95766e3.jpg",
-    "static/media/logo.png": "/ip-proyect/static/media/logo.fedd0759a6defa889a96.png",
-    "static/media/short-logo.png": "/ip-proyect/static/media/short-logo.fb87be794be66a8b5e99.png",
-    "index.html": "/ip-proyect/index.html",
-    "main.ea4c5b06.css.map": "/ip-proyect/static/css/main.ea4c5b06.css.map",
-    "main.c6973ca5.js.map": "/ip-proyect/static/js/main.c6973ca5.js.map"
+    "main.css": "/solar-wind/static/css/main.8ae1053f.css",
+    "main.js": "/solar-wind/static/js/main.95185d1e.js",
+    "static/media/fondo-rural.jpg": "/solar-wind/static/media/fondo-rural.7f1d7b7c3a1bbd5b8ea3.jpg",
+    "static/media/zonas-rurales.webp": "/solar-wind/static/media/zonas-rurales.b41d7751ba219cdf736d.webp",
+    "static/media/aulas.jpeg": "/solar-wind/static/media/aulas.8e55e83af494786fa8a3.jpeg",
+    "static/media/solar-wind-1.jpeg": "/solar-wind/static/media/solar-wind-1.1ec33952756c0f63c821.jpeg",
+    "static/media/molino.jpg": "/solar-wind/static/media/molino.b56382fa6868e95766e3.jpg",
+    "static/media/logo.png": "/solar-wind/static/media/logo.fedd0759a6defa889a96.png",
+    "static/media/short-logo.png": "/solar-wind/static/media/short-logo.fb87be794be66a8b5e99.png",
+    "index.html": "/solar-wind/index.html",
+    "main.8ae1053f.css.map": "/solar-wind/static/css/main.8ae1053f.css.map",
+    "main.95185d1e.js.map": "/solar-wind/static/js/main.95185d1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea4c5b06.css",
-    "static/js/main.c6973ca5.js"
+    "static/css/main.8ae1053f.css",
+    "static/js/main.95185d1e.js"
   ]
 }
