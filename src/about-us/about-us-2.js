@@ -7,27 +7,27 @@ const AboutUs2 = () => {
           {
                name: "Fernando Gomez",
                info: "Lider",
-               icon: null
+               icon: <i class="fa-solid fa-flag"></i>
           },
           {
                name: "Anadara Rivera",
                info: "Secretaria",
-               icon: null
+               icon: <i class="fa-solid fa-square-pen"></i>
           },
           {
                name: "Gerard Bazán",
                info: "Evaluador",
-               icon: null
+               icon: <i class="fa-solid fa-eye"></i>
           },
           {
                name: "Fernando Bullon",
                info: "Coordinador",
-               icon: null
+               icon: <i class="fa-solid fa-chart-simple"></i>
           },
           {
                name: "Regina Bazán",
                info: "Temporizador",
-               icon: null
+               icon: <i class="fa-solid fa-clock"></i>
           },
      ]
 
@@ -36,7 +36,8 @@ const AboutUs2 = () => {
                <div className='section'>
                     {team.map((element, index) => (
                          <div className='users-section'key={index}>
-                              <div className='header-users'><h5>{element.name}</h5></div>
+                              <div className='circle'></div>
+                              <div className='header-users'><h5>{element.name}</h5>{element.icon}</div>
                               <span>{element.info}</span>
                          </div>
                     ))}

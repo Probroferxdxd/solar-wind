@@ -4,6 +4,12 @@ header{
      animation: appear 1s ease-in-out forwards 3s, scale-animation 2s ease-in-out forwards 3.5s;
 }
 
+@media (width <= 1000px){
+     .container header{
+          animation: appear 1s ease-in-out forwards 3s, scale-animation-1 2s ease-in-out 3.5s;
+     }
+}
+
 @keyframes appear {
      0%{
           opacity: 0;
@@ -149,6 +155,16 @@ header{
      }
 }
 
+
+@keyframes scale-animation-1 {
+     0%{
+          width: 40%;
+     }
+
+     100%{
+          width: 100%;
+     }
+}
 
 
 .main-section h1, .main-section p{

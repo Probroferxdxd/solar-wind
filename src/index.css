@@ -536,7 +536,7 @@ main .main-section p, .main-section-3 p{
 
 .product-3{
   width: 100%;
-  height: 200vh;
+  height: 220vh;
   background: url('../src/pictures/fondo-rural.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -546,7 +546,7 @@ main .main-section p, .main-section-3 p{
 
 .product-3 .background-product-3{
   width: 100%;
-  height: 200vh;
+  height: 220vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -570,6 +570,93 @@ main .main-section p, .main-section-3 p{
   position: relative;
   z-index: 3;
 }
+
+.product-3-main{
+  width: 100%;
+  height: 100vh;
+  padding: 120px;
+}
+
+.main-product-3{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+
+.pictures-elements{
+  border-radius: 30px;
+}
+
+.pictures-elements:nth-child(1){
+  background: url('../src/picture-gallery/imagen-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(2){
+  background: url('../src/picture-gallery/imagen-2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(3){
+  background: url('../src/picture-gallery/imagen-3.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(4){
+  background: url('../src/picture-gallery/imagen-4.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(5){
+  background: url('../src/picture-gallery/imagen-5.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(6){
+  background: url('../src/picture-gallery/imagen-6.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(7){
+  background: url('../src/picture-gallery/imagen-7.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(8){
+  background: url('../src/picture-gallery/imagen-8.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(9){
+  background: url('../src/picture-gallery/imagen-9.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(10){
+  background: url('../src/picture-gallery/imagen-10.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pictures-elements:nth-child(11){
+  background: url('../src/picture-gallery/imagen-11.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
 
 .about-us-1{
   width: 100%;
@@ -661,7 +748,91 @@ main .main-section p, .main-section-3 p{
 
 .about-us-2{
   width: 100%;
-  height: 80vh;
+  height: 150vh;
+  background-color: #fff;
+}
+
+.about-us-2 .section{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 120px;
+  gap: 30px;
+}
+
+.about-us-2 .section .users-section{
+  border: solid 2px #a8a8a8;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.about-us-2 .section .users-section .circle{
+  padding: 60px;
+  background-color: #cecece;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.about-us-2 .section .users-section .header-users{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.about-us-2 .section .users-section h5, .about-us-2 .section .users-section i{
+  font-size: 2rem;
+}
+
+.about-us-2 .section .users-section span{
+  color: #666;
+}
+
+
+/* About Us 3 */
+
+.about-us-3{
+  width: 100%;
+  height: 150vh;
+  background-color: #ddd;
+}
+
+.about-us-3 .section{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 120px;
+  gap: 30px;
+}
+
+.about-us-3 .section .users-section{
+  border: solid 2px #a8a8a8;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.about-us-3 .section .users-section .circle{
+  padding: 60px;
+  background-color: #cecece;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.about-us-3 .section .users-section .header-users{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.about-us-3 .section .users-section h5, .about-us-2 .section .users-section i{
+  font-size: 2rem;
+}
+
+.about-us-3 .section .users-section span{
+  color: #666;
 }
 
 footer{
@@ -738,4 +909,149 @@ footer *{
 
 .footer-bottom span{
   color: #fff;
+}
+
+@media (width <= 1000px) {
+  .container header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    z-index: 100;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+    ;
+    transition: all 0.3s ease-out;
+  }
+  .container .header-1 .logo{
+    display: none;
+  }
+
+  main .main-section{
+    width: 100%;
+    height: 100vh;
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    position: sticky;
+    z-index: 10;
+  }
+
+  main .main-section h1, .main-section-2 .text h1, main .main-section-3 h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin-top: 60px;
+  }
+
+  .main-section-2 .text h1{
+    color: #222;
+  }
+
+  main .main-section p{
+    font-size: 1.05rem;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    background-color: transparent;
+    width: 69%;
+  }
+
+  .main-section-2{
+    width: 100%;
+    height: 270vh;
+    margin-top: 0%;
+    position: relative;
+    background-color: #fff;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 3;
+  }
+
+  .main-section-2 .text{
+    padding: 60px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+
+  .main-section-3{
+    width: 100%;
+    height: 230vh;
+    background-size: cover;
+    background-color: blue;
+    background-position: center;
+    position: relative;
+  }
+
+  .main-section-3 .background{
+    height: 230vh;
+  }
+
+  .main-section-3 .text{
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer{
+    height: 195vh;
+  }
+
+  .footer-top{
+    display: grid;
+
+    grid-template-areas: "about-us" 
+                          "links" 
+                          "contact"
+                          "social-media";
+    height: 180vh;
+  }
+
+  .footer-top div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+  }
+}
+
+@media (width <= 400px) {
+
+  .main-section-2{
+    height: 400vh;
+  }
+
+  .main-section-2 .stadistics-1 .data{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  
 }

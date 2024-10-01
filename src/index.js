@@ -13,6 +13,7 @@ import Product2 from './producto/product2';
 import Product3 from './producto/product3';
 import AboutUs1 from './about-us/about-us-1';
 import AboutUs2 from './about-us/about-us-2';
+import AboutUs3 from './about-us/about-us-3';
 import APIs1 from './apis/apis1';
 import Footer from './components/footer';
 
@@ -22,7 +23,7 @@ const App = () => {
   // Elementos para cada sección
   const elementosDeInicio = [<Main1 />, <Main2 />, <Main3 />]; // El grupo de contenedores del inicio 
   const elementosDeProducto = [<Product1 logo="Sumaq energía" artefacto="Solar Wind"/>, <ProductBenefit />,<Product2 />, <Product3 />];
-  const elementosDeSobreNosotros = [<AboutUs1 />, <AboutUs2 />]
+  const elementosDeSobreNosotros = [<AboutUs1 />, <AboutUs2 />, <AboutUs3 />]
   const elementosDeAPIs = [<APIs1 />]; // EL grupo de contenedores de la sección Producto
 
   
