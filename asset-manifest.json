@@ -1,7 +1,18 @@
 {
   "files": {
-    "main.css": "/solar-wind/static/css/main.8ae1053f.css",
-    "main.js": "/solar-wind/static/js/main.95185d1e.js",
+    "main.css": "/solar-wind/static/css/main.1d01ed91.css",
+    "main.js": "/solar-wind/static/js/main.b314e80f.js",
+    "static/media/imagen-2.jpg": "/solar-wind/static/media/imagen-2.6a3b4c4c1a22045d662e.jpg",
+    "static/media/imagen-4.jpg": "/solar-wind/static/media/imagen-4.a71654e8f758c1e4d044.jpg",
+    "static/media/imagen-5.jpg": "/solar-wind/static/media/imagen-5.5455ef6a619bfad9b941.jpg",
+    "static/media/imagen-3.jpg": "/solar-wind/static/media/imagen-3.9d133899ace54768c3be.jpg",
+    "static/media/imagen-1.jpg": "/solar-wind/static/media/imagen-1.75cb4769cc52f88a2706.jpg",
+    "static/media/imagen-11.jpg": "/solar-wind/static/media/imagen-11.d0d478e5f266198620b9.jpg",
+    "static/media/imagen-6.jpg": "/solar-wind/static/media/imagen-6.c84a6032cc28e5816aa6.jpg",
+    "static/media/imagen-7.jpg": "/solar-wind/static/media/imagen-7.48b4be2fb76c249d9b52.jpg",
+    "static/media/imagen-8.jpg": "/solar-wind/static/media/imagen-8.48b4be2fb76c249d9b52.jpg",
+    "static/media/imagen-10.jpg": "/solar-wind/static/media/imagen-10.1238d9018b67be1cff27.jpg",
+    "static/media/imagen-9.jpg": "/solar-wind/static/media/imagen-9.1238d9018b67be1cff27.jpg",
     "static/media/fondo-rural.jpg": "/solar-wind/static/media/fondo-rural.7f1d7b7c3a1bbd5b8ea3.jpg",
     "static/media/zonas-rurales.webp": "/solar-wind/static/media/zonas-rurales.b41d7751ba219cdf736d.webp",
     "static/media/aulas.jpeg": "/solar-wind/static/media/aulas.8e55e83af494786fa8a3.jpeg",
@@ -10,11 +21,11 @@
     "static/media/logo.png": "/solar-wind/static/media/logo.fedd0759a6defa889a96.png",
     "static/media/short-logo.png": "/solar-wind/static/media/short-logo.fb87be794be66a8b5e99.png",
     "index.html": "/solar-wind/index.html",
-    "main.8ae1053f.css.map": "/solar-wind/static/css/main.8ae1053f.css.map",
-    "main.95185d1e.js.map": "/solar-wind/static/js/main.95185d1e.js.map"
+    "main.1d01ed91.css.map": "/solar-wind/static/css/main.1d01ed91.css.map",
+    "main.b314e80f.js.map": "/solar-wind/static/js/main.b314e80f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ae1053f.css",
-    "static/js/main.95185d1e.js"
+    "static/css/main.1d01ed91.css",
+    "static/js/main.b314e80f.js"
   ]
 }
