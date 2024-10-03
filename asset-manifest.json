@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/solar-wind/static/css/main.1d01ed91.css",
-    "main.js": "/solar-wind/static/js/main.b314e80f.js",
+    "main.css": "/solar-wind/static/css/main.946b1ac5.css",
+    "main.js": "/solar-wind/static/js/main.1ae097f4.js",
     "static/media/imagen-2.jpg": "/solar-wind/static/media/imagen-2.6a3b4c4c1a22045d662e.jpg",
     "static/media/imagen-4.jpg": "/solar-wind/static/media/imagen-4.a71654e8f758c1e4d044.jpg",
     "static/media/imagen-5.jpg": "/solar-wind/static/media/imagen-5.5455ef6a619bfad9b941.jpg",
@@ -21,11 +21,11 @@
     "static/media/logo.png": "/solar-wind/static/media/logo.fedd0759a6defa889a96.png",
     "static/media/short-logo.png": "/solar-wind/static/media/short-logo.fb87be794be66a8b5e99.png",
     "index.html": "/solar-wind/index.html",
-    "main.1d01ed91.css.map": "/solar-wind/static/css/main.1d01ed91.css.map",
-    "main.b314e80f.js.map": "/solar-wind/static/js/main.b314e80f.js.map"
+    "main.946b1ac5.css.map": "/solar-wind/static/css/main.946b1ac5.css.map",
+    "main.1ae097f4.js.map": "/solar-wind/static/js/main.1ae097f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d01ed91.css",
-    "static/js/main.b314e80f.js"
+    "static/css/main.946b1ac5.css",
+    "static/js/main.1ae097f4.js"
   ]
 }
