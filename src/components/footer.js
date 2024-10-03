@@ -33,9 +33,9 @@ const Footer = () => {
                     <div className='social-media-section'>
                          <h3>Siguenos en:</h3>
                          <ul>
-                              <li><a href='#'>Facebook</a></li>
-                              <li><a href='#'>Twitter</a></li>
-                              <li><a href='#'>Instagram</a></li>
+                              <li><a href='https://www.instagram.com/sumaq.energia/'>Facebook</a></li>
+                              <li><a href='https://x.com/sumac_energia'>Twitter</a></li>
+                              <li><a href='https://www.instagram.com/sumaq.energia/'>Instagram</a></li>
                          </ul>
                     </div>
                </div>
