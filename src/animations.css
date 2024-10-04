@@ -6,7 +6,7 @@ header{
 
 @media (width <= 1000px){
      .container header{
-          animation: appear 1s ease-in-out forwards 3s, scale-animation-1 2s ease-in-out 3.5s;
+          animation: appear 1s ease-in-out forwards 3s
      }
 }
 

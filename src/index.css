@@ -682,14 +682,17 @@ main .main-section p, .main-section-3 p{
   padding: 40px;
   background: rgba(255, 255, 255, 0.025);
   backdrop-filter: blur(10px);
+  z-index: 9;
 }
 
-.about-us-1 .card button{
+.about-us-1 .card a{
   padding: 10px 20px;
   background-color: #222;
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  z-index: 9;
+  position: relative;
 }
 
 .about-us-1 .card p{
@@ -836,6 +839,7 @@ main .main-section p, .main-section-3 p{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
 }
 
 .apis1-section .apis, .apis1-section .fuentes{
@@ -1058,6 +1062,10 @@ footer *{
     background-color: blue;
     background-position: center;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .main-section-3 .background{
@@ -1067,8 +1075,259 @@ footer *{
   .main-section-3 .text{
     padding: 20px;
     align-items: center;
+    width: 90%;
+  }
+
+  .product-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #0D47A1, #4CAF50);
+    display: flex;
+    justify-content: center;
+    padding: 600px 50px;
+
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .product-1 .information-section, .product-1 .picture-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 150vh;
+    padding: 0;
+  }
+
+  .product-1 button, .modal button{
+      padding: 20px 10px;
+      border-radius: 10px;
+      border: none;
+      background-color: #222;
+      color: #fff;
+      cursor: pointer;
+      max-width: none;
+      min-width: none;
+      width: 100%;
+      
+  }
+
+  .product-1 .information-section button{
     width: 100%;
   }
+
+  .modal{
+    padding: 20px;
+  }
+
+  .modal .information-section{
+    width: 80%;
+    padding: 50px;
+    height: 70vh;
+  }
+
+  .benefits{
+    width: 100%;
+    height: 130vh;
+    padding: 50px;
+    background-color: #797979;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+    .benefits ul{
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+    }
+
+    .benefits ul li{
+      width: 100%;
+    }
+  
+  .product-2{
+    width: 100%;
+    height: 150vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .product-2 .product-2-main h1{
+    font-size: 2.2rem;
+    width: 90%;
+    text-align: center;
+  }
+
+  .product-2 .product-2-main ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: 140%;
+    gap: 20px;
+  }
+
+  .product-2 .product-2-main ul li{
+      position: relative;
+      overflow: hidden;
+      z-index: 3;
+      border-radius: 20px;
+      padding: 20px;
+    }
+
+  .product-2 .product-2-main ul li p{
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+
+  .product-3{
+    width: 100%;
+    height: 450vh;
+    background: url('../src/pictures/fondo-rural.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .product-3 .background-product-3{
+    height: 450vh;
+  }
+
+  .product-3 .product-3-main .header-product-3{
+    width: 100%;
+    height: 50vh;
+    padding: 50px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .product-3-main{
+    width: 100%;
+    height: 400vh;
+    padding: 30px;
+  }
+  
+  .main-product-3{
+    width: 100%;
+    height: 400vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .about-us-1{
+    width: 100%;
+    height: 130vh;
+    background: linear-gradient(45deg, #508CA4, #0A8754);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-us-1 .card{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 5px #0fad6e;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.025);
+    backdrop-filter: blur(3px);
+    z-index: 3;
+  }
+  
+  .about-us-1 .card a{
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #222;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+
+  .icons:nth-child(1){
+    top: 40%;
+    left: -10%;
+    z-index: 0;
+  }
+  
+  .icons:nth-child(2){
+    top: 9%;
+    right: 10%;
+  }
+  
+  .icons:nth-child(3){
+    bottom: 25%;
+    right: -5%;
+  }
+  
+  .icons:nth-child(4){
+    top: 30%;
+    right: -10%;
+  }
+  
+  .icons:nth-child(5){
+    bottom: 20%;
+    left: 10%;
+  }
+  
+  .icons:nth-child(6){
+    top: 15%;
+    left: 20%;
+  }
+
+  .about-us-2{
+    height: 200vh;
+  }
+
+  .about-us-2 .section{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 50px;
+    gap: 30px;
+  }
+
+  .about-us-3{
+    height: 200vh;
+  }
+
+  .about-us-3 .section{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 30px;
+  }
+
+  .apis1-section .fuentes{
+    flex-direction: column;
+    
+  }
+
+  .apis1-section .fuentes div{
+    width: 100%;
+  }
+  
 
   footer{
     height: 195vh;
@@ -1094,7 +1353,7 @@ footer *{
   }
 }
 
-@media (width <= 400px) {
+@media (width <= 500px) {
 
   .main-section-2{
     height: 400vh;
@@ -1104,6 +1363,37 @@ footer *{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .modal .information-section{
+    width: 90%;
+    height: 95vh;
+  }
+
+  .benefits{
+    height: 200vh;
+  }
+
+  .product-2{
+    height: 200vh;
+  }
+
+  .about-us-3 .section{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 10px;
+  }
+
+  .apis1-section{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   

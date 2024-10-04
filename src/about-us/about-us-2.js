@@ -32,7 +32,7 @@ const AboutUs2 = () => {
      ]
 
      return(
-          <div className='about-us-2'>
+          <div className='about-us-2' id='about-us-2'>
                <div className='section'>
                     {team.map((element, index) => (
                          <div className='users-section'key={index}>

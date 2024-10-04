@@ -18,7 +18,7 @@ const AboutUs1 = () => {
                   <h1>Sumaq Energía</h1>
                   <p>Sumaq Energía es un equipo de estudiante de la institución educativa Innova School que buscan brindar una solución tecnológica ante la problemática de la escesez de energía en la provincia de Puruchuco, durante 2 meses hemos venido evaluando
                   la mejor propuesta ante esta problemárica, descartando idea tras idea</p>
-                  <button>Más información</button>
+                  <a href="#about-us-2" style={{fontSize: '0.7rem', textDecoration: 'none', textAlign: 'center'}}>Más información</a>
                </div>
                <div className='icons-section' style={{color: "#fff"}}>
                  {icons.map((element, index) => (
